@@ -1,5 +1,5 @@
 // need to be reference to user - because user is the main
-const mongoos = require('mongoos');
+const mongoose = require('mongoose');
 
 const ProfileSchema = new mongoose.Schema({
   user: {
